@@ -32,6 +32,7 @@ public class Controller {
 		
 		while(true){
 			switch (view) {
+			//가독성을 위해 지정함.
 				case View.HOME: view = home(); break;
 				case View.LOGIN: view = userService.login(); break;
 				case View.JOIN: view = userService.join(); break;
